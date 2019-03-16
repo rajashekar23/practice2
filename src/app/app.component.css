@@ -85,34 +85,84 @@ font-size: 1.6em;
 .third{
     margin-bottom: 50px
 }
-.flag p{
-    margin: 0;
+
+.fa-flag{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+    
 }
-.person p{
-    margin: 0;
+.fa-user{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
 }
-.file p{
-    margin: 0;
+.fa-inbox{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
 }
-.football p{
-    margin: 0;
+.fa-road{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.fa-tag{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.fa-cloud{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.fa-bell{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.fa-bullhorn{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.bord1{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 7px;
+    margin-bottom: 40px;
+
+}
+
+.third p{
+    font-size: 1.2em;
+    color: grey;
+    margin: 4px;
+
+}
+.third h2{
+    margin-bottom: 30px;
 }
 .tag1{
     margin-bottom: 40px;
 }
-.tag p{
-    margin: 0;
-}
-.cloud p{
-    margin: 0;
-}
-.bell p{
-    margin:0;
-}
-.horn p{
-    margin: 0;
-}
 
+.tag1 p{
+    font-size: 1.2em;
+    color:grey;
+    margin:4px
+}
+.tag1 h2{
+    margin-bottom: 30px;
+}
+.exce{
+    margin-top: 120px;
+    border: 3px solid rgb(233, 226, 226);
+    font-size: 25px;
+    padding: 10px;
+    
+}
 
 .graay{
     background-color: #f2f1f1;
@@ -123,56 +173,97 @@ font-size: 1.6em;
     padding-top: 30px;
 
 }
+.graay hr{
+    color: white;
+    
+}
+.heaad img{
+    border-radius: 50%;
+    background-color: #87BD94;
+    margin-right: 25px; 
+
+}
 .graay h1{
     display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    font-size: 2.5em;
+   
 }
-.user1{
-    border-radius: 50%;
-    background-color: #87BD94;
-    margin-right: 20px;
+.graay p{
+    font-size: 1.5em;
 }
-.user2{
-    border-radius: 50%;
-    background-color: #87BD94;
-    margin-right: 20px;
-}
-.user3{
-    border-radius: 50%;
-    background-color: #87BD94;
-    margin-right: 20px;
-}
-.user4{
-    border-radius: 50%;
-    background-color: #87BD94;
-    margin-right: 20px;
-}
-.user5{
-    border-radius: 50%;
-    background-color: #87BD94;
-}
+
 .black{
     background-color: rgba(37, 34, 34, 0.76);
     width:100%;
     height: 453px;
     font-family: 'Thasadith', sans-serif;
     color: white;
-    padding-top: 30px;   
+    
+}
+.bird{
+    margin-top: 60px;
+    border-radius: 50%;
+    border:1px solid grey;
+    padding:7px;
+    margin-bottom: 0px;
+
+}
+.bird2{
+    border-radius: 50%;
+    border:1px solid grey;
+    padding:25px;
+
+}
+.black p{
+    margin-top: 0px;
+    font-size: 1.8em;
 }
 .contact{
     background-color: white;
     width:100%;
     height: 583px;
     font-family: 'Thasadith', sans-serif;
+}
+.contact h2{
+    font-size: 2.5em;
+    padding-top: 50px;
     
-    padding-top: 30px;   
+    
+}
+.input1{
+    margin-top: 0px;
+}
+.input1 input{
+    border:none;
+    border-radius: 4px;
+    padding:20px;
+    background-color: #f2f1f1;
+    margin-right:30px;
+    width: 410px;   
+    margin-top: 0px;   
+}
+.messa input{
+    border:none;
+    border-radius: 4px;
+    padding:20px;
+    background-color: #f2f1f1;
+    margin-right:30px;
+    width: 890px;  
+    height: 200px; 
+    margin-top: 20px;   
 
 }
+.send{
+    margin-top: 20px;
+}
+.sendbut{
+    border:1.5px solid lightgray;
+    font-size: 1.5em;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
 .last{
-    background-color: rgba(37, 34, 34, 0.76);
+    background-color: rgba(37, 34, 34, 0.856);
     width:100%;
     height: 753px;
     font-family: 'Thasadith', sans-serif;
@@ -181,10 +272,14 @@ font-size: 1.6em;
 }
 .last h1{
     color: #87BD94;
-    border-bottom:1px solid white;
-    border-bottom-color: ivory;
-    padding-bottom: 30px;
+    font-size: 2.5em;
 }
+.ball{
+    margin-right: 70px;
+    font-size: 1.2em;
+    color: lightgrey;
+}
+
 .fa-facebook{
     border-radius: 50%;
     background-color: #87BD94;
@@ -203,4 +298,7 @@ font-size: 1.6em;
     margin-right: 20px;
     padding:12px;
 }
-
+.end{
+    font-size: 1.2em;
+    color:lightgrey;
+}
